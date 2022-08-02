@@ -20,5 +20,5 @@ if ! git diff --quiet $SPEC; then
 	make bumpnogit
 	git add $SPEC upstream release
 	git commit -m "Stable update to $NEW_VER" $SPEC upstream release
-	#make koji-nowait
+	make koji-nowait
 fi
