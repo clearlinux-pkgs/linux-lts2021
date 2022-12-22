@@ -6,7 +6,7 @@
 
 Name:           linux-lts2021
 Version:        5.15.85
-Release:        28
+Release:        29
 License:        GPL-2.0
 Summary:        The Linux kernel
 Url:            http://www.kernel.org/
