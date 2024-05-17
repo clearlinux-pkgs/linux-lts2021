@@ -5,13 +5,13 @@
 #
 
 Name:           linux-lts2021
-Version:        5.15.158
-Release:        99
+Version:        5.15.159
+Release:        100
 License:        GPL-2.0
 Summary:        The Linux kernel
 Url:            http://www.kernel.org/
 Group:          kernel
-Source0:        https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.158.tar.xz
+Source0:        https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.159.tar.xz
 Source1:        config
 Source2:        cmdline
 
@@ -102,7 +102,7 @@ Requires:       linux-lts2021-license = %{version}-%{release}
 Linux kernel build files
 
 %prep
-%setup -q -n linux-5.15.158
+%setup -q -n linux-5.15.159
 
 #cve.patch.start cve patches
 #cve.patch.end
